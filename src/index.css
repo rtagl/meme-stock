@@ -21,11 +21,14 @@ body {
 .price {
   font-size: 16vmin;
   text-align: center;
+  letter-spacing: 0.3rem;
 }
 
 .price-time {
   font-size: 6vmin;
   text-align: center;
+  overflow: auto;
+  letter-spacing: 0.1rem;
 }
 
 .up {

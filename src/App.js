@@ -117,9 +117,8 @@ function App() {
       <div className={['price', direction].join(' ')}>
         ${loading ? 'Loading...' : `${price} ${directionEmojis[direction]}`}
       </div>
-      <div className="price-time">
-        <span className="last-update">Last Updated: </span>
-        {time && time.toLocaleTimeString()}
+      <div>
+        <div className="price-time">{time && time.toLocaleTimeString()}</div>
       </div>
       <div className="chart">
         <Chart
