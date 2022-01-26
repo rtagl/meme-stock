@@ -7,7 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.ticker {
+  font-size: 10vmin;
+  text-align: center;
+}
+
+.last-update {
+  font-size: 2.5vmin;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+.price {
+  font-size: 16vmin;
+  text-align: center;
+}
+
+.price-time {
+  font-size: 6vmin;
+  text-align: center;
+}
+
+.up {
+  color: green;
+}
+
+.down {
+  color: red;
+}
+
+.chart {
+  margin-top: 50px;
 }
